@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Jquery -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Slick -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <div id="root">
+    <div class="wrapper">
+      <header class="main-header container" style="margin-top: 0;">
+        <div class="logo">
+          <button class="responsive-button" id="responsive-button">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times hidden"></i>
+          </button>
+          <img src="./assets/images/logo.png" alt="logo">
+        </div>
+        <ul class="page-navbar">
+          <li class="page-navbar--item">
+            <a href="./index.html" class="active">Trang chủ</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./about.html">Giới thiệu</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./service.html">Dịch vụ</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./product.html">Sản phẩm</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./news.html">Tin tức</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./download.html">Tải xuống</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./contact.html">Liên hệ</a>
+          </li>
+        </ul>
+        <select name="languages" id="languages">
+          <option value="vietnamese">Tiếng việt</option>
+          <option value="english">English</option>
+        </select>
+      </header>
+    </div>
+    <div class="banner">
+      <li class="banner-item" style="background-image: url('./assets/images/slide1.png');">
+        <h1 class="banner-item--title">
+          CHUYÊN VỀ HỆ THỐNG HÀNG HẢI
+        </h1>
+        <p class="banner-item-description">
+          Nguyễn Tài Marine dành thời gian để đánh giá cao nhu cầu của khách hàng và hợp tác để tìm ra giải pháp tối ưu.
+        </p>
+        <a href="#" class="banner-item-detail">
+          Xem thêm
+        </a>
+      </li>
+      <li class="banner-item" style="background-image: url('./assets/images/slide2.jpg');">
+        <h1 class="banner-item--title">
+          CHUYÊN VỀ HỆ THỐNG HÀNG HẢI
+        </h1>
+        <p class="banner-item-description">
+          Nguyễn Tài Marine dành thời gian để đánh giá cao nhu cầu của khách hàng và hợp tác để tìm ra giải pháp tối ưu.
+        </p>
+        <a href="#" class="banner-item-detail">
+          Xem thêm
+        </a>
+      </li>
+      <li class="banner-item" style="background-image: url('./assets/images/slide3.png');">
+        <h1 class="banner-item--title">
+          CHUYÊN VỀ HỆ THỐNG HÀNG HẢI
+        </h1>
+        <p class="banner-item-description">
+          Nguyễn Tài Marine dành thời gian để đánh giá cao nhu cầu của khách hàng và hợp tác để tìm ra giải pháp tối ưu.
+        </p>
+        <a href="#" class="banner-item-detail">
+          Xem thêm
+        </a>
+      </li>
+      <li class="banner-item" style="background-image: url('./assets/images/slide4.png');">
+        <h1 class="banner-item--title">
+          CHUYÊN VỀ HỆ THỐNG HÀNG HẢI
+        </h1>
+        <p class="banner-item-description">
+          Nguyễn Tài Marine dành thời gian để đánh giá cao nhu cầu của khách hàng và hợp tác để tìm ra giải pháp tối ưu.
+        </p>
+        <a href="#" class="banner-item-detail">
+          Xem thêm
+        </a>
+      </li>
+      <li class="banner-item" style="background-image: url('./assets/images/slide5.jpg');">
+        <h1 class="banner-item--title">
+          CHUYÊN VỀ HỆ THỐNG HÀNG HẢI
+        </h1>
+        <p class="banner-item-description">
+          Nguyễn Tài Marine dành thời gian để đánh giá cao nhu cầu của khách hàng và hợp tác để tìm ra giải pháp tối ưu.
+        </p>
+        <a href="#" class="banner-item-detail">
+          Xem thêm
+        </a>
+      </li>
+      <li class="banner-item" style="background-image: url('./assets/images/slide6.png');">
+        <h1 class="banner-item--title">
+          CHUYÊN VỀ HỆ THỐNG HÀNG HẢI
+        </h1>
+        <p class="banner-item-description">
+          Nguyễn Tài Marine dành thời gian để đánh giá cao nhu cầu của khách hàng và hợp tác để tìm ra giải pháp tối ưu.
+        </p>
+        <a href="#" class="banner-item-detail">
+          Xem thêm
+        </a>
+      </li>
+      <li class="banner-item" style="background-image: url('./assets/images/slide7.png');">
+        <h1 class="banner-item--title">
+          CHUYÊN VỀ HỆ THỐNG HÀNG HẢI
+        </h1>
+        <p class="banner-item-description">
+          Nguyễn Tài Marine dành thời gian để đánh giá cao nhu cầu của khách hàng và hợp tác để tìm ra giải pháp tối ưu.
+        </p>
+        <a href="#" class="banner-item-detail">
+          Xem thêm
+        </a>
+      </li>
+    </div>
+    <!-- Start Description -->
+    <div class="company-description container">
+      <div class="company-about">
+        <div class="company-heading">
+          <h2>Về công ty</h2>
+          <h1>CHUYÊN GIA HỆ THỐNG HÀNG HẢI</h1>
+          <div class="shape"></div>
+        </div>
+        <p class="company-detail">
+          NGUYỄN TÀI MARINE là nhà sản xuất hàng đầu thế giới về hệ thống chắn bùn hàng hải và hệ thống cột neo tàu hiệu suất cao, chuyên thiết kế, kỹ thuật và sản xuất chắn bùn cao su hàng hải và cột neo tàu hơn 20 năm kinh nghiệm theo hệ thống quản lý chất lượng ISO 9001: 2015. Nguyễn Tài Marine đã thiết lập các tiêu chuẩn quốc gia về chắn bùn cao su ở Trung Quốc. Tất cả các nhà máy NGUYỄN TÀI MARINE được CCS và BV phê duyệt theo PIANC 2002.
+        </p>
+      </div>
+      <div class="company-trailers">
+        <div class="company-trailer">
+          <img src="./assets/images/trailer1.jpg" alt="trailer 1">
+        </div>
+        <div class="company-trailer">
+          <img src="./assets/images/trailer2.jpg" alt="trailer 2">
+        </div>
+        <div class="company-trailer">
+          <img src="./assets/images/trailer3.jpg" alt="trailer 3">
+        </div>
+      </div>
+    </div>
+    <!-- End Description -->
+    
+    <!-- Start Directory -->
+    <div class="company-directory container">
+      <h3 class="title">DANH MỤC SẢN PHẨM</h3>
+      <div class="shape" style="width: 10rem"></div>
+      <div class="directories">
+        <div class="directory">
+          <a class="directory-cover" href="#">
+            <div class="cover">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="md:text-6xl text-4xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 10.4V4C4 3.44772 4.44772 3 5 3H10V1H14V3H19C19.5523 3 20 3.44772 20 4V10.4L21.0857 10.7257C21.5974 10.8792 21.8981 11.4078 21.7685 11.9261L20.2516 17.9938C20.1682 17.9979 20.0844 18 20 18C18.3644 18 16.9122 17.2147 16 16.0005C15.0878 17.2147 13.6356 18 12 18C10.3644 18 8.91223 17.2147 8 16.0005C7.08777 17.2147 5.6356 18 4 18C3.91564 18 3.83178 17.9979 3.74845 17.9938L2.23152 11.9261C2.10195 11.4078 2.40262 10.8792 2.91431 10.7257L4 10.4ZM6 9.8L12 8L14.7541 8.82624L16.5627 9.36882L18 9.8V5H6V9.8ZM4 20C5.53671 20 6.93849 19.4223 8 18.4722C9.06151 19.4223 10.4633 20 12 20C13.5367 20 14.9385 19.4223 16 18.4722C17.0615 19.4223 18.4633 20 20 20H22V22H20C18.5429 22 17.1767 21.6104 16 20.9297C14.8233 21.6104 13.4571 22 12 22C10.5429 22 9.17669 21.6104 8 20.9297C6.82331 21.6104 5.45715 22 4 22H2V20H4Z"></path></svg>
+
+            </div>
+            <h1>ĐỆM CHỐNG VA TÀU</h1>
+          </a>
+          <div class="directory-detail">
+            Đệm chống va tàu Nguyễn Tài dùng trong cầu cảng và tàu thủy, các sản phẩm dùng trong tàu thủy và ngành đóng tàu và hàng hải
+          </div>
+          <div class="directory-galery">
+            <div class="galery-image">
+              <img src="./assets/images/directory1.jpg" alt="">
+            </div>
+            <div class="galery-image">
+              <img src="./assets/images/directory2.jpg" alt="">
+            </div>
+            <div class="galery-image">
+              <img src="./assets/images/directory3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="directory">
+          <a class="directory-cover" href="#">
+            <div class="cover">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="md:text-6xl text-4xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 10.4V4C4 3.44772 4.44772 3 5 3H10V1H14V3H19C19.5523 3 20 3.44772 20 4V10.4L21.0857 10.7257C21.5974 10.8792 21.8981 11.4078 21.7685 11.9261L20.2516 17.9938C20.1682 17.9979 20.0844 18 20 18C18.3644 18 16.9122 17.2147 16 16.0005C15.0878 17.2147 13.6356 18 12 18C10.3644 18 8.91223 17.2147 8 16.0005C7.08777 17.2147 5.6356 18 4 18C3.91564 18 3.83178 17.9979 3.74845 17.9938L2.23152 11.9261C2.10195 11.4078 2.40262 10.8792 2.91431 10.7257L4 10.4ZM6 9.8L12 8L14.7541 8.82624L16.5627 9.36882L18 9.8V5H6V9.8ZM4 20C5.53671 20 6.93849 19.4223 8 18.4722C9.06151 19.4223 10.4633 20 12 20C13.5367 20 14.9385 19.4223 16 18.4722C17.0615 19.4223 18.4633 20 20 20H22V22H20C18.5429 22 17.1767 21.6104 16 20.9297C14.8233 21.6104 13.4571 22 12 22C10.5429 22 9.17669 21.6104 8 20.9297C6.82331 21.6104 5.45715 22 4 22H2V20H4Z"></path></svg>
+
+            </div>
+            <h1>bích nang và phụ kiện</h1>
+          </a>
+          <div class="directory-detail">
+            Được dùng ở các bến cảng, cầu cảng, dùng để neo tàu thuyền ở bến một cách an toàn với nhiều loại và kích cỡ khác nhau
+          </div>
+          <iframe src="https://www.youtube.com/embed/ldmKX7QD50s?si=_t29RKloSYbdn1-_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="directory">
+          <a class="directory-cover" href="#">
+            <div class="cover">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="md:text-6xl text-4xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 10.4V4C4 3.44772 4.44772 3 5 3H10V1H14V3H19C19.5523 3 20 3.44772 20 4V10.4L21.0857 10.7257C21.5974 10.8792 21.8981 11.4078 21.7685 11.9261L20.2516 17.9938C20.1682 17.9979 20.0844 18 20 18C18.3644 18 16.9122 17.2147 16 16.0005C15.0878 17.2147 13.6356 18 12 18C10.3644 18 8.91223 17.2147 8 16.0005C7.08777 17.2147 5.6356 18 4 18C3.91564 18 3.83178 17.9979 3.74845 17.9938L2.23152 11.9261C2.10195 11.4078 2.40262 10.8792 2.91431 10.7257L4 10.4ZM6 9.8L12 8L14.7541 8.82624L16.5627 9.36882L18 9.8V5H6V9.8ZM4 20C5.53671 20 6.93849 19.4223 8 18.4722C9.06151 19.4223 10.4633 20 12 20C13.5367 20 14.9385 19.4223 16 18.4722C17.0615 19.4223 18.4633 20 20 20H22V22H20C18.5429 22 17.1767 21.6104 16 20.9297C14.8233 21.6104 13.4571 22 12 22C10.5429 22 9.17669 21.6104 8 20.9297C6.82331 21.6104 5.45715 22 4 22H2V20H4Z"></path></svg>
+
+            </div>
+            <h1>thang cao su</h1>
+          </a>
+          <div class="directory-detail">
+            Thang cao su có nhiều loại kích thước khác nhau, được thiết kế và sản xuất theo tính năng địa lý của bến cảng, độ nặng của tàu thuyền
+          </div>
+          <div class="directory-galery">
+            <div class="galery-image" >
+              <img src="./assets/images/directory4.jpg" alt="">
+            </div>
+            <div class="galery-image">
+              <img src="./assets/images/directory5.jpg" alt="">
+            </div>
+            <div class="galery-image">
+              <img src="./assets/images/directory3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Directory -->
+    <!-- Start Product -->
+    <div class="company-products container">
+      <h3 class="title">dự án tiêu biểu</h3>
+      <div class="shape" style="width: 10rem"></div>
+      <div class="products">
+        <a href="#" class="product" style="background-image: url('./assets/images/product.jpg');">
+            <p>Hyosung</p>
+        </a>
+        <a href="#" class="product" style="background-image: url('./assets/images/product.jpg');">
+          <p>Hyosung</p>
+        </a>
+        <a href="#" class="product" style="background-image: url('./assets/images/product.jpg');">
+          <p>Hyosung</p>
+        </a>
+        <a href="#" class="product" style="background-image: url('./assets/images/product.jpg');">
+          <p>Hyosung</p>
+        </a>
+        <a href="#" class="product" style="background-image: url('./assets/images/product.jpg');">
+          <p>Hyosung</p>
+        </a>
+        <a href="#" class="product" style="background-image: url('./assets/images/product.jpg');">
+          <p>Hyosung</p>
+        </a>
+        <a href="#" class="product" style="background-image: url('./assets/images/product.jpg');">
+          <p>Hyosung</p>
+        </a>
+        <a href="#" class="product" style="background-image: url('./assets/images/product.jpg');">
+          <p>Hyosung</p>
+        </a>
+      </div>
+    </div>
+    <!-- End Product -->
+    <!-- Cataloge -->
+    <div class="catalogue-wrapper">
+      <div class="company-catalogue">
+        <div class="container">
+          <div class="title">
+            <h1>
+              Quy mô công ty Nguyễn Tài Marine
+            </h1>
+            <p>
+              Là một trong những công ty có sự phát triển nhanh chóng với hơn 10 năm kinh nghiệm Nguyễn Tài tự tin ngày càng mở rộng quy mô công ty và phát triển vượt bậc:
+            </p>
+          </div>
+          <div class="catalogues">
+            <div class="main-catalogue" style="background-image: url('./assets/images/catalog.png');">
+              <div class="settings">
+                <p>catalogue</p>
+                <a href="#" class="download">
+                  <i class="fas fa-cloud-download-alt"></i> Tải xuống
+                </a>
+              </div>
+            </div>
+            <div class="default-catalogue">
+              <div class="catalogue">
+                <img src="./assets/images/catalogue.jpg" alt="catalogue">
+                <div class="catalogue-detail">
+                  <h2>Nhà xưởng và VP tại HCM</h2>
+                  <p>Diện tích: 10.000m<sup>2</sup></p>
+                </div>
+              </div>
+              <div class="catalogue">
+                <img src="./assets/images/catalogue.jpg" alt="catalogue">
+                <div class="catalogue-detail">
+                  <h2>Nhà xưởng và VP tại HCM</h2>
+                  <p>Diện tích: 10.000m<sup>2</sup></p>
+                </div>
+              </div>
+              <div class="catalogue">
+                <img src="./assets/images/catalogue.jpg" alt="catalogue">
+                <div class="catalogue-detail">
+                  <h2>Nhà xưởng và VP tại HCM</h2>
+                  <p>Diện tích: 10.000m<sup>2</sup></p>
+                </div>
+              </div>
+              <div class="catalogue">
+                <img src="./assets/images/catalogue.jpg" alt="catalogue">
+                <div class="catalogue-detail">
+                  <h2>Nhà xưởng và VP tại HCM</h2>
+                  <p>Diện tích: 10.000m<sup>2</sup></p>
+                </div>
+              </div>
+              <div class="catalogue">
+                <img src="./assets/images/catalogue.jpg" alt="catalogue">
+                <div class="catalogue-detail">
+                  <h2>Nhà xưởng và VP tại HCM</h2>
+                  <p>Diện tích: 10.000m<sup>2</sup></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Cataloge -->
+    <div class="news-n-form container">
+      <div class="news">
+        <div class="title">
+          <h3>tin tức <span>mới</span></h3>
+          <div class="hr">
+            <div class="line"></div>
+            <div class="circle"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="news-box">
+          <a class="main-news" href="#">
+            <div class="main-news-thumbnail" style="background-image: url('./assets/images/product.jpg');">
+            </div>
+            <div class="main-news-detail">
+              <p class="news-title">
+                Hyosung
+              </p>
+              <div class="line"></div>
+              <div class="news-description">
+                Công ty chúng tôi với đội ngũ kinh nghiệm 10 năm trong ngành, chúng tôi đã và đang trên đà phát triển nhằm phục vụ nhu cầu cao su trong công nghiệp. Với những gì đã làm được...
+              </div>
+            </div>
+          </a>
+          <div class="sub-news">
+            <div class="sub-news-item">
+              <div class="sub-news-item--thumbnail" style="background-image: url('./assets/images/news.jpg');">
+              </div>
+              <div class="sub-news-item--description">
+                <h4 class="sub-news-item--title">
+                  Dự án điện gió
+                </h4>
+                <div class="line"></div>
+                <p class="sub-news-item--detail">
+                  Công ty chúng tôi với đội ngũ kinh nghiệm 10 năm trong ngành, chúng tôi đã và đang trên đà phát triển nhằm phục vụ nhu cầu cao su trong công nghiệp. Với những gì đã làm được...
+                </p>
+              </div>
+            </div>
+            <div class="sub-news-item">
+              <div class="sub-news-item--thumbnail" style="background-image: url('./assets/images/news.jpg');">
+              </div>
+              <div class="sub-news-item--description">
+                <h4 class="sub-news-item--title">
+                  Dự án điện gió
+                </h4>
+                <div class="line"></div>
+                <p class="sub-news-item--detail">
+                  Công ty chúng tôi với đội ngũ kinh nghiệm 10 năm trong ngành, chúng tôi đã và đang trên đà phát triển nhằm phục vụ nhu cầu cao su trong công nghiệp. Với những gì đã làm được...
+                </p>
+              </div>
+            </div>
+            <div class="sub-news-item">
+              <div class="sub-news-item--thumbnail" style="background-image: url('./assets/images/news.jpg');">
+              </div>
+              <div class="sub-news-item--description">
+                <h4 class="sub-news-item--title">
+                  Dự án điện gió
+                </h4>
+                <div class="line"></div>
+                <p class="sub-news-item--detail">
+                  Công ty chúng tôi với đội ngũ kinh nghiệm 10 năm trong ngành, chúng tôi đã và đang trên đà phát triển nhằm phục vụ nhu cầu cao su trong công nghiệp. Với những gì đã làm được...
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <form class="contact-form">
+          <div class="form-title">
+            <i class="fas fa-phone-volume"></i>
+            <div class="form-title--detail">
+              <p>hotline tư vấn</p>
+              <p>0972 491 224</p>
+            </div>
+          </div>
+          <div class="form-detail">
+            <div class="input-box">
+              <input type="text" placeholder="Họ và tên*" required>
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Email*" required>
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Số điện thoại*" required>
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Địa chỉ" >
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Quốc gia" >
+            </div>
+          </div>
+          <button class="btn" type="button">
+            Gửi yêu cầu
+          </button>
+      </form>
+    </div>
+    <div class="footer">
+      <footer class="container">
+        <div class="description">
+          <h3>NGUYỄN TÀI RUBBER</h3>
+          <p>Địa chỉ: 310C Nguyễn Thị Lắng, Củ Chi, HCM</p>
+          <p>Phone: 0972.491.224</p>
+          <p>Web: nguyentairubber.com</p>
+        </div>
+        <div class="description">
+          <h3>CHÍNH SÁCH</h3>
+          <a href="#">Bảo mật thanh toán</a>
+          <a href="#">Chính sách vận chuyển</a>
+          <a href="#">Chính sách bảo hành</a>
+        </div>
+        <div class="description">
+          <h3>ĐỊA CHỈ</h3>
+          <img src="./assets/images/map.PNG" alt="">
+          <!-- <a href="#">Bảo mật thanh toán</a>
+          <a href="#">Chính sách vận chuyển</a>
+          <a href="#">Chính sách bảo hành</a> -->
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+<script>
+   $(document).ready(function(){
+    $('.banner').slick({
+      infinite: true,
+      dots: false,
+      autoplaySpeed: 1000,
+      arrows: false,
+      autoplay: true,
+    });
+    $('.directory-galery').slick({
+      infinite: true,
+      dots: false,
+      autoplaySpeed: 1000,
+      arrows: false,
+      autoplay: true,
+    })
+  });
+  const navbarBtn = $('#responsive-button');
+  const navbar = $('.page-navbar');
+  navbarBtn.click(event, (event) => {
+    if(navbar.css('visibility') == "hidden") {
+      navbar.css("visibility", "visible");
+      navbar.css("height", "100%")
+    } else {
+      navbar.css("visibility", "hidden");
+      navbar.css("height", "0")
+    }
+  });
+</script>
+</html>

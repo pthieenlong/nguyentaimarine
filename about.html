@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Jquery -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Slick -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <div id="root">
+    <div class="wrapper">
+      <header class="main-header container" style="margin-top: 0;">
+        <div class="logo">
+          <button class="responsive-button" id="responsive-button">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times hidden"></i>
+          </button>
+          <img src="./assets/images/logo.png" alt="logo">
+        </div>
+        <ul class="page-navbar">
+          <li class="page-navbar--item">
+            <a href="./index.html">Trang chủ</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./about.html" class="active">Giới thiệu</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./service.html">Dịch vụ</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./product.html">Sản phẩm</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./news.html">Tin tức</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./download.html">Tải xuống</a>
+          </li>
+          <li class="page-navbar--item">
+            <a href="./contact.html">Liên hệ</a>
+          </li>
+        </ul>
+        <select name="languages" id="languages">
+          <option value="vietnamese">Tiếng việt</option>
+          <option value="english">English</option>
+        </select>
+      </header>
+      
+    </div>
+    <div class="content">
+        <div class="banner" style="background-image: url('./assets/images/catalog.png');">
+          <p>Về chúng tôi</p>
+        </div>
+        <div class="about container">
+          <div class="about-description">
+            <div class="about-title">
+              về công ty
+            </div>
+            <div class="about-name">
+              NGUYỄN TÀI MARINE
+            </div>
+            <div class="shape"></div>
+            <p class="about-detail">
+              Công ty chúng tôi với đội ngũ kinh nghiệm 10 năm trong ngành, chúng tôi đã và đang trên đà phát triển nhằm phục vụ nhu cầu cao su trong công nghiệp. Với những gì đã làm được chúng tôi luôn cam kết tay nghề cao – uy tín và giá cả phải chăng nhằm đáp ứng nhu cầu cho khách hàng. Chúng tôi cam kết với khách hàng sẽ có được mức giá tốt nhất, phương thức thanh toàn nhanh gọn cùng với sự chu đáo và nhiệt tình nhất. Nguyễn Tài sẽ mang đến cho khách hàng sự hài lòng..
+            </p>
+          </div>
+          <div class="about-thumbnail" style="background-image: url('./assets/images/about.jpg');"></div>
+        </div>
+        <div class="about-galery container">
+          <div class="about-galery-item" style="background-image: url('./assets/images/directory2.jpg');"> </div>
+          <div class="about-galery-item" style="background-image: url('./assets/images/directory1.jpg');"> </div>
+          <div class="about-galery-item" style="background-image: url('./assets/images/about-1.jpg');"> </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <footer class="container">
+        <div class="description">
+          <h3>NGUYỄN TÀI RUBBER</h3>
+          <p>Địa chỉ: 310C Nguyễn Thị Lắng, Củ Chi, HCM</p>
+          <p>Phone: 0972.491.224</p>
+          <p>Web: nguyentairubber.com</p>
+        </div>
+        <div class="description">
+          <h3>CHÍNH SÁCH</h3>
+          <a href="#">Bảo mật thanh toán</a>
+          <a href="#">Chính sách vận chuyển</a>
+          <a href="#">Chính sách bảo hành</a>
+        </div>
+        <div class="description">
+          <h3>ĐỊA CHỈ</h3>
+          <img src="./assets/images/map.PNG" alt="">
+          <!-- <a href="#">Bảo mật thanh toán</a>
+          <a href="#">Chính sách vận chuyển</a>
+          <a href="#">Chính sách bảo hành</a> -->
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+<script>
+ 
+ const navbarBtn = $('#responsive-button');
+ const navbar = $('.page-navbar');
+ navbarBtn.click(event, (event) => {
+   if(navbar.css('visibility') == "hidden") {
+     navbar.css("visibility", "visible");
+     navbar.css("height", "100%")
+   } else {
+     navbar.css("visibility", "hidden");
+     navbar.css("height", "0")
+   }
+ });
+</script>
